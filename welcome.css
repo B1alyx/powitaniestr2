@@ -80,14 +80,14 @@ section {
 
 .gallery {
     display: flex;
-    justify-content: center; /* Wyśrodkuj obrazek w galerii */
+    justify-content: flex-start; /* Wyśrodkuj obrazek w galerii */
     flex-wrap: wrap;
     gap: 10px;
 }
 
 .gallery img {
     width: 100%;
-    max-width: 100px; /* Zmniejszenie rozmiaru obrazu */
+    max-width: 200px; /* Średni rozmiar obrazu */
     margin-bottom: 10px;
     border-radius: 10px;
 }
