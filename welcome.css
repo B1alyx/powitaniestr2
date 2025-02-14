@@ -93,7 +93,7 @@ section {
 }
 
 .gallery-img {
-    width: 300px; /* Ustaw szerokość obrazu */
+    width: 400px; /* Ustaw szerokość obrazu na 400px */
     height: auto; /* Ustaw wysokość obrazu */
     border-radius: 10px;
     object-fit: cover;
