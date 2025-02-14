@@ -87,7 +87,7 @@ section {
 
 .gallery img {
     width: 100%;
-    max-width: 150px; /* Zmniejszenie rozmiaru obrazu */
+    max-width: 100px; /* Zmniejszenie rozmiaru obrazu */
     margin-bottom: 10px;
     border-radius: 10px;
 }
