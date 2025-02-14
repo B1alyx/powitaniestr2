@@ -1,11 +1,11 @@
+// Usuń wszystkie odniesienia do przycisków
 document.getElementById('toggle-dark-mode').addEventListener('click', function() {
     document.body.classList.toggle('dark-mode');
 });
 
-document.querySelectorAll('nav button').forEach(button => {
-    button.addEventListener('click', function() {
-        const sectionId = this.getAttribute('onclick').match(/'([^']+)'/)[1];
-        const section = document.getElementById(sectionId);
-        section.scrollIntoView({ behavior: 'smooth' });
-    });
-});
+// Funkcja przewijania do sekcji - już niepotrzebna
+/*
+function scrollToSection(sectionId) {
+    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+}
+*/
