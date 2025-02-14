@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    background-image: url('vulcanak47.jpg'); /* Upewnij się, że obrazek jest w tym samym folderze co plik CSS */
+    background-image: url('https://media.sketchfab.com/models/d9fbfb49adc945a28d132f0da42f10f0/thumbnails/0564619efa2e4ccd8d67118161562ca1/8f3805ba7d50434f8e3ca563cad49d6f.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
