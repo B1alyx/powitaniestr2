@@ -78,9 +78,16 @@ section {
     transition: background-color 0.3s ease; /* Dark mode transition */
 }
 
+.gallery {
+    display: flex;
+    justify-content: flex-start; /* Wyrównanie obrazu do lewej */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .gallery img {
-    width: 50%;
-    max-width: 100px; /* Średni rozmiar obrazu */
+    width: 100%;
+    max-width: 100px; /* Ustaw rozmiar obrazu na 100px */
     margin-bottom: 10px;
     border-radius: 10px;
 }
