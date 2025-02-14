@@ -9,8 +9,3 @@ document.querySelectorAll('nav button').forEach(button => {
         section.scrollIntoView({ behavior: 'smooth' });
     });
 });
-
-document.getElementById('enter-site').addEventListener('click', function() {
-    document.getElementById('welcome-screen').style.display = 'none';
-    document.body.style.backdropFilter = 'none';
-});
