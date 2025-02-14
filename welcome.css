@@ -75,20 +75,28 @@ section {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease; /* Dark mode transition */
+    transition: background-color 0.3s ease;
 }
 
 .gallery-container {
-    max-width: 300px; /* Szerokość kontenera obrazu */
     margin-bottom: 20px;
     position: relative;
 }
 
+.gallery-container h3 {
+    text-align: center;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .gallery-img {
-    width: 100%;
-    height: auto; /* Dopasowanie obrazu do kontenera */
+    width: 300px; /* Ustaw szerokość obrazu */
+    height: auto; /* Ustaw wysokość obrazu */
     border-radius: 10px;
-    object-fit: cover; /* Umożliwia przycięcie obrazu, aby pasował do kontenera */
+    object-fit: cover;
 }
 
 .social-icons {
