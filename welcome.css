@@ -78,11 +78,17 @@ section {
     transition: background-color 0.3s ease;
 }
 
-.gallery {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 10px;
+.gallery-container {
+    max-width: 300px; /* Szerokość kontenera obrazu */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto; /* Dopasowanie obrazu do kontenera */
+    border-radius: 10px;
+    object-fit: cover; /* Umożliwia przycięcie obrazu, aby pasował do kontenera */
 }
 
 .social-icons {
