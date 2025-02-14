@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Dark mode transition */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 header {
@@ -75,12 +75,12 @@ section {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease; /* Dark mode transition */
+    transition: background-color 0.3s ease;
 }
 
 .gallery {
     display: flex;
-    justify-content: flex-start; /* Wyrównanie obrazu do lewej */
+    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 10px;
 }
@@ -92,7 +92,6 @@ section {
     border-radius: 10px;
 }
 
-/* Stylizacja ikon mediów społecznościowych */
 .social-icons {
     position: fixed;
     bottom: 20px;
@@ -112,7 +111,6 @@ section {
     transform: scale(1.1);
 }
 
-/* Dark Mode */
 body.dark-mode {
     background-color: #333;
     color: #fff;
