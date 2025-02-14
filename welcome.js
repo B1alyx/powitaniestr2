@@ -12,4 +12,5 @@ document.querySelectorAll('nav button').forEach(button => {
 
 document.getElementById('enter-site').addEventListener('click', function() {
     document.getElementById('welcome-screen').style.display = 'none';
+    document.body.style.backdropFilter = 'none';
 });
