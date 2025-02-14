@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Dark mode transition */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 header {
@@ -96,6 +96,7 @@ section {
     bottom: 20px;
     right: 20px;
     display: flex;
+    flex-direction: column; /* Ustawienie ikony w kolumnie */
     gap: 10px;
 }
 
