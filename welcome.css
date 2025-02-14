@@ -65,8 +65,8 @@ section {
 }
 
 .gallery-img {
-    width: 1920px; /* Ustaw szerokość obrazu na 1920px */
-    height: 1080px; /* Ustaw wysokość obrazu na 1080px */
+    width: 600px; /* Mniejsza szerokość obrazu */
+    height: 337px; /* Mniejsza wysokość obrazu */
     border-radius: 10px;
     object-fit: cover;
 }
@@ -86,7 +86,7 @@ section {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.social-icons a:hover {
+social-icons a:hover {
     color: #007bff;
     transform: scale(1.1);
 }
